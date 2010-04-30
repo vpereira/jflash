@@ -1,0 +1,16 @@
+JFLASH a jquery plugin to generate flash messages via ajax
+
+ok, its under development, i will improve it probably daily :-)
+
+You just have to add the css to your project (together with jquery and the jflash.js), create a div with id = flash in your layout
+and start to use it
+
+so you have your layout.html.erb with something like
+
+<div id="flash">
+</div>
+
+
+so in your javascript you just have to do
+
+$('#flash').jflash({message:'Hello world!', flash:'notice'});
