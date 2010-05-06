@@ -14,3 +14,8 @@ so you have your layout.html.erb with something like
 so in your javascript you just have to do
 
 $('#flash').jflash({message:'Hello world!', flash:'notice'});
+
+and voi-la. your flash will be displayed and then it will be hided. 
+
+Today we are supporting just flash notices and flash error. I will update ASAP to add configurable timeout and effects.
+

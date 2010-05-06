@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<link rel="stylesheet" href="jflash.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jflash.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function() {
+		$('.success').click(function(){
+			$('#flash').jflash({message:'rocket sent successfully'});
+		});
+		$('.error').click(function(){
+			$('#flash').jflash({message:'rocket exploded',flash:'error',timeout:2000});
+		});
+	  });
+	</script>
+	
+	<title>test</title>
+	
+</head>
+
+<body>
+<div id="flash">
+</div>
+<input type='button' value='success' class='success'>
+<input type='button' value='error' class='error'>
+</body>
+</html>
