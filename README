@@ -17,5 +17,15 @@ $('#flash').jflash({message:'Hello world!', flash:'notice'});
 
 and voi-la. your flash will be displayed and then it will be hided. 
 
-Today we are supporting just flash notices and flash error. I will update ASAP to add configurable timeout and effects.
+Today we are supporting just flash notices and flash error. You can pass some options to the plugin. See the example test.html
+
+options supported today:
+
+//Params:
+//message -> the message that should be passed
+//fadeIN -> ms for fadein effect
+//FadeOut -> ms for fadeout effect
+//timeout -> time that we will show our flash message
+//flash -> the flash that you want (notice, error)
+
 
