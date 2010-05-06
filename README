@@ -1,4 +1,4 @@
-JFLASH a jquery plugin to generate flash messages via ajax
+JFLASH is a jquery plugin to generate flash messages via ajax
 
 ok, its under development, i will improve it probably daily :-)
 
@@ -15,9 +15,9 @@ so in your javascript you just have to do
 
 $('#flash').jflash({message:'Hello world!', flash:'notice'});
 
-and voi-la. your flash will be displayed and then it will be hided. 
+and voi-la. your flash will be displayed and then disappear 
 
-Today we are supporting just flash notices and flash error. You can pass some options to the plugin. See the example test.html
+Today we support just flash notices and flash error. You can pass some options to the plugin. See the example test.html
 
 options supported today:
 
