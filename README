@@ -25,7 +25,7 @@ options supported today:
 //message -> the message that should be passed
 //fadeIN -> ms for fadein effect
 //FadeOut -> ms for fadeout effect
-//timeout -> time that we will show our flash message
+//display -> time that we will show our flash message
 //flash -> the flash that you want (notice, error)
 
 
